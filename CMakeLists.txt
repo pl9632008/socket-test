@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(mvtest)
 find_package(OpenCV REQUIRED)
-set(SRC src/main.cpp)
+set(SRC src/client.cpp)
 
 include_directories(include  ${OpenCV_INCLUDE_DIRS} include/mavlink2.0  /usr/local/include)
 link_directories(/usr/local/lib)
